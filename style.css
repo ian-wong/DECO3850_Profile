@@ -1,0 +1,32 @@
+body {
+  min-height: 75rem;
+  padding-top: 4.5rem;
+}
+
+.nav-item {
+  font-size: 1.2rem;
+  margin-left: 1rem;
+}
+
+#main {
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.3),
+      rgba(0, 0, 0, 0.3)),
+    url(img/background-image.jpg) no-repeat center;
+  height: 45rem;
+  position: relative;
+  width: 100%;
+  background-size: cover;
+  color: white;
+  text-decoration: black;
+
+}
+
+#main-title {
+  font-size: 6rem;
+  padding-top: 15rem;
+}
+
+#subtitle {
+  color:white;
+}
