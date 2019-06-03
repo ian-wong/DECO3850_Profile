@@ -8,6 +8,9 @@ body {
   margin-left: 1rem;
 }
 
+/** 
+MAIN CONTENT
+*/
 #main {
   background:
     linear-gradient(rgba(0, 0, 0, 0.3),
@@ -29,4 +32,44 @@ body {
 
 #subtitle {
   color:white;
+}
+
+.divider {
+  margin-top: 7rem;
+}
+
+.content-text{
+  font-size: 1.1rem;
+}
+
+/* TEAM CONTENT
+-------------------------------------------------- */
+
+/* Center align the text within the columns */
+.team {
+  color: white;
+}
+.team .col-lg-6 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+  
+}
+.team h2 {
+  font-weight: 400;
+}
+.team .col-lg-6 p {
+  margin-right: .75rem;
+  margin-left: .75rem;
+}
+
+/* PRODUCT
+------------------------------------------------- */
+#productMain {
+  background: url(img/product.jpg) no-repeat center;
+  height: 25rem;
+  position: relative;
+  width: 100%;
+  margin-top: 10px;
+  background-size: cover;
+
 }
