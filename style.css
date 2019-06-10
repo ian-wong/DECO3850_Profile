@@ -42,6 +42,12 @@ MAIN CONTENT
   font-size: 1.1rem;
 }
 
+.content-subheading {
+  font-size:1.2rem;
+  color: #BF0201;
+  font-weight: 500;
+}
+
 /* TEAM CONTENT
 -------------------------------------------------- */
 
@@ -72,4 +78,72 @@ MAIN CONTENT
   margin-top: 10px;
   background-size: cover;
 
+}
+
+/* TIMELINE
+--------------------------------------------------*/
+ul.interaction {
+  list-style-type: none;
+  position: relative;
+}
+ul.interaction:before {
+  content: ' ';
+  background: #c5cad0;
+  display: inline-block;
+  position: absolute;
+  left: 29px;
+  width: 2px;
+  height: 100%;
+  z-index: 400;
+}
+ul.interaction > li {
+  margin: 20px 0;
+  padding-left: 20px;
+}
+ul.interaction > li:before {
+  content: ' ';
+  background: white;
+  display: inline-block;
+  position: absolute;
+  border-radius: 50%;
+  border: 3px solid #BF0201;
+  left: 18px;
+  width: 23px;
+  height: 23px;
+  z-index: 400;
+}
+
+/* Parallax
+--------------------------------------------------*/
+.parallax {
+  background:
+    url('img/Setup.jpg') no-repeat center fixed;
+    
+  height: 450px;
+  width: 100%;
+  background-size: cover;
+}
+
+/* Tech
+--------------------------------------------------*/
+.tech .col-lg-3 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+.tech h2 {
+  font-weight: 400;
+}
+.tech .col-lg-3 p {
+  margin-right: .75rem;
+  margin-left: .75rem;
+}
+
+.tech .col-lg-4 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.tech .col-lg-4 p {
+  margin-right: .75rem;
+  margin-left: .75rem;
 }
