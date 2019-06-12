@@ -35,7 +35,7 @@ MAIN CONTENT
 }
 
 .divider {
-  margin-top: 7rem;
+  margin-top: 6rem;
 }
 
 .content-text{
@@ -146,4 +146,17 @@ ul.interaction > li:before {
 .tech .col-lg-4 p {
   margin-right: .75rem;
   margin-left: .75rem;
+}
+
+/* PROCESS 
+--------------------------------------------------*/
+#processMain {
+  background: 
+      url(img/process.jpg) no-repeat center;
+  height: 25rem;
+  position: relative;
+  width: 100%;
+  margin-top: 10px;
+  background-size: cover;
+
 }
