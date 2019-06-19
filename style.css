@@ -3,6 +3,10 @@ body {
   padding-top: 4.5rem;
 }
 
+a:hover{
+  text-decoration: none;
+}
+
 .nav-item {
   font-size: 1.2rem;
   margin-left: 1rem;
@@ -37,6 +41,15 @@ MAIN CONTENT
 .divider {
   margin-top: 6rem;
 }
+
+.subheading {
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  font-size:1.3rem;
+  color: rgb(10, 180, 130);
+  font-weight: 500;
+}
+
 
 .content-text{
   font-size: 1.1rem;
@@ -159,4 +172,33 @@ ul.interaction > li:before {
   margin-top: 10px;
   background-size: cover;
 
+}
+
+/*WORK
+--------------------------------------------------*/
+#workMain {
+  background: 
+      url(img/myWork.jpg) no-repeat center;
+  height: 25rem;
+  position: relative;
+  width: 100%;
+  margin-top: 10px;
+  background-size: cover;
+}
+
+/*OUTPUTS
+--------------------------------------------------*/
+.outputLinks {
+  color:black;
+  text-decoration: none !important;
+}
+
+.outputLinks:hover{
+  text-decoration: none !important;
+  color:black;
+}
+/*FOOTER
+--------------------------------------------------*/
+.footer {
+  background-color: #f5f5f5;
 }
